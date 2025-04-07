@@ -8,7 +8,6 @@ const App = () => {
     <div className="app">
       <Header />
       <main className="content">
-        {/* About Section */}
         <section className="about">
           <h2>About Me</h2>
           <p>
@@ -16,7 +15,6 @@ const App = () => {
           </p>
         </section>
 
-        {/* Skills Section */}
         <section className="skills">
           <h2>Skills</h2>
           <ul className="skills-list">
@@ -32,7 +30,6 @@ const App = () => {
           </ul>
         </section>
 
-        {/* Education Section */}
         <section className="education">
           <h2>Education</h2>
           <div className="college-info">
@@ -42,7 +39,6 @@ const App = () => {
           </div>
         </section>
 
-        {/* Projects Section */}
         <section className="projects">
           <h2>My Projects</h2>
           <div className="projects-container">
