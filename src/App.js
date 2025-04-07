@@ -60,6 +60,13 @@ const App = () => {
               demoLink="https://shivanshtiwariss.github.io/MY-QUIZ/"
               githubLink="https://github.com/ShivanshTIwaRISS/MY-QUIZ"
             />
+          <ProjectCard 
+              title="Pixnet"
+              description="PixNet is a beautifully crafted social media application"
+              image="/images/image.png"
+              demoLink="https://pixnet-social-lu8v.vercel.app/"
+              githubLink="https://github.com/ShivanshTIwaRISS/Pixnet_Social"
+            />
 
           
           </div>
