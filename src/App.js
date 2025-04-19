@@ -2,20 +2,23 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
+import Navbar from "./components/Navbar.js";
 
 const App = () => {
   return (
     <div className="app">
+      <Navbar />
+      <div id="home"></div>
       <Header />
       <main className="content">
-        <section className="about">
+        <section id="about" className="about">
           <h2>About Me</h2>
           <p>
             Aspiring full stack developer with hands-on experience in building web applications. I have solved 100+ questions on LeetCode, achieving a rating of 1400+. Additionally, I have a Codeforces rating of 900+. I’m passionate about learning new technologies and building scalable and efficient applications.
           </p>
         </section>
 
-        <section className="skills">
+        <section id="skills" className="skills">
           <h2>Skills</h2>
           <ul className="skills-list">
             <li>HTML</li>
@@ -30,7 +33,7 @@ const App = () => {
           </ul>
         </section>
 
-        <section className="education">
+        <section id="education" className="education">
           <h2>Education</h2>
           <div className="college-info">
             <h3>Newton School of Technology, Rishihood University</h3>
@@ -39,36 +42,34 @@ const App = () => {
           </div>
         </section>
 
-        <section className="projects">
+        <section id="projects" className="projects">
           <h2>My Projects</h2>
           <div className="projects-container">
-          <ProjectCard 
+            <ProjectCard 
               title="TaskMate"
               description="A task manager app with CRUD operations."
               image="/images/Screenshot 2025-04-02 at 12.02.37 AM.png"
               demoLink="https://making-one.vercel.app/"
               githubLink="https://github.com/ShivanshTIwaRISS/Making-one"
             />
-          <ProjectCard 
+            <ProjectCard 
               title="The Quiz Game"
               description="A fun and interactive quiz game built with HTML, CSS, and JavaScript."
               image="/images/Screenshot 2025-04-02 at 12.03.54 AM.png"
               demoLink="https://shivanshtiwariss.github.io/MY-QUIZ/"
               githubLink="https://github.com/ShivanshTIwaRISS/MY-QUIZ"
             />
-          <ProjectCard 
+            <ProjectCard 
               title="Pixnet"
               description="PixNet is a beautifully crafted social media application"
               image="/images/image.png"
               demoLink="https://pixnet-social-lu8v.vercel.app/"
               githubLink="https://github.com/ShivanshTIwaRISS/Pixnet_Social"
             />
-
-          
           </div>
         </section>
 
-        <section className="contact">
+        <section id="contact" className="contact">
           <h2>Contact Information</h2>
           <p>Email: shivansh.tiwari2024@nst.rishihood.edu.in</p>
           <div className="contact-links">
@@ -84,3 +85,4 @@ const App = () => {
 };
 
 export default App;
+
